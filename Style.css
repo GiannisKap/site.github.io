@@ -1,0 +1,232 @@
+body {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	padding: 0;
+	text-align: center;
+	background-image: url('C:/xampp/htdocs/back-01.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Trebuchet MS', sans-serif;
+	
+
+}
+
+.logo{
+	height: 110px;
+	width: 250px;
+	border-radius: 8px;
+	margin-top: 10px;
+
+}
+.buttons{
+	margin-top: 250px;
+}
+
+.btn{
+	margin-top: 100px;
+	text-align: center;
+	border: 2px solid white;
+	background: none;
+	border-radius: 8px;
+	color: white;
+	font-size: 25px;
+	margin: 20px;
+	padding: 5px 50px;
+	cursor: pointer;
+ 	transition-duration: 0.5s;
+
+}
+
+.owner:hover, .tenant:hover{
+	background-color: black;
+}
+
+
+.reg:hover{
+	background-color: white;
+	color: black;
+}
+
+.login-submit{
+	text-align: center;
+	border: 2px solid white;
+	background: none;
+	border-radius: 8px;
+	color: white;
+	font-size: 25px;
+	padding: 15px 70px;
+ 	cursor: pointer;
+ 	transition-duration: 0.5s;
+}
+
+
+.title{
+	font-size: 25px;
+	color: black;
+}
+
+.login-form{
+	text-align: center;
+	font-size: 25px;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	margin-top: 10px;
+	margin-left: 350px;
+	margin-right: 350px;
+	border-radius: 10px
+}
+
+.form-style{
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid white;
+	color: white;
+}
+
+.login-header{
+	margin-top: 10px;
+	font-style: italic;
+	text-decoration: underline;
+	color: #ffbd4a;
+}
+
+.register-form-red{
+	text-align: center;
+	font-size: 25px;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	margin-left: 550px;
+	margin-right: 550px;
+	margin-top: 10px;
+	border-radius: 10px
+}
+.reg-radio{
+	margin-top: none;
+}
+
+ #exp{
+ 	color: white;
+ }
+
+ #btnsubmit{
+ 	padding-bottom: 35px;
+ }
+
+ .navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #ffbd4a;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#model, #capacity{
+	font-size: 17px;
+}
+
+#profile{
+	background: black; 
+	color: white;
+	text-align: center;
+}
+
+#profile-header{
+	font-size: 35px
+}
+
+#profile-info{
+	text-align: left;
+	font-size: 28px;
+	color: white;
+	margin-left: 45px;
+	margin-right: 45px;
+
+}
+
+.embed-container{
+
+}
+
+#viewDiv {
+	margin: auto;
+    height: 50%;
+    width: 50%; 
+}
+
+
+h5{
+	margin-top: 10px;
+}
+
+input{
+	height: 25px;
+	font-size: 18px;
+
+}
+
+label{
+	font-size: 19px;
+}
+
+h2{
+	color: #ffbd4a;
+}
+
+
