@@ -1,0 +1,14 @@
+{
+	"name": "Bat Bits",
+	"version":"1.0.0",
+	"description":"",
+	"main":"index.js",
+	"scripts":{
+		"build":"node index.js"
+	},
+	"keywords":[],
+	"author":"",
+	"license":"ISC"
+	"homepage":"https://www.batbitsofficial.com/"
+	"dependencies":{}
+}
